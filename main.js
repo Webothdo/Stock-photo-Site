@@ -15,7 +15,7 @@ async function getPhoto(pagination) {
         console.log(data);
         return data
     } catch (error) {
-        alert(error.message)
+        alert(error)
     }
 
 }
