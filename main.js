@@ -12,10 +12,9 @@ async function getPhoto(pagination) {
     try {
         let response = await fetch(`https:picsum.photos/v2/list?page=${pagination}`)
         let data = await response.json()
-        console.log(data);
         return data
     } catch (error) {
-        alert(error)
+        
     }
 
 }
