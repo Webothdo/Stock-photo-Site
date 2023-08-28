@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 85%;
+    text-align: center;
+
+}
+
+
+.image-container {
+    columns: 3 250px;
+    gap: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.load-more {
+    padding: 20px 30px;
+    font-size: 30px;
+}
